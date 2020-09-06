@@ -11,7 +11,7 @@ Custom Dialog es una librería para java swing que permite crear Dialogs persona
 Metodos:
 
 
-setTitle - Añade un titulo al dialog
+setTitle - Añade un titulo al dialog <br/>
 setMessege - Añade un mensaje al dialog
 setCancel - Si el valor es True permete cerrar el dialog cada ves que se preciona fuera del dialog
 setDialogScreamTransparent - Le añade transparencia el Scream
