@@ -12,7 +12,7 @@ Metodos:<br/><br/>
 <strong>setDialogScreamTransparent</strong> - Le añade transparencia el Scream <br/>
 <strong>showDialog</strong> - Permite mostrar el dialog siempre y cuando el valor sea true (No utilicen setVisible !!) <br/>
 
-Example :<br/><br/>
+<h1>Example</h1> :<br/><br/>
 
         AlertDialog myDialog = new AlertDialog(
                 new Dimension(450 , 180),
