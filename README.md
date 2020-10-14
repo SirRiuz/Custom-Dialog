@@ -12,9 +12,34 @@ Metodos:<br/><br/>
 <strong>setDialogScreamTransparent</strong> - Le añade transparencia el Scream <br/>
 <strong>showDialog</strong> - Permite mostrar el dialog siempre y cuando el valor sea true (No utilicen setVisible !!) <br/>
 
+Example :<br/><br/>
+
+        AlertDialog myDialog = new AlertDialog(
+                new Dimension(450 , 180),
+                true
+            );
+            myDialog.setScreamColor(Color.BLACK);
+            myDialog.setTitle("Error");
+            myDialog.setMessege("Eso es un mensaje de error");
+            myDialog.setCancel(true);
+            myDialog.setDialogScreamTransparent(0.7f);
+
+            myDialog.setPostiveButton("SALUDAR", new AbstractAction() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    System.out.println("Esto es un saludo");
+                    System.exit(0);
+                }
+            });
+            myDialog.showDialog();
+
+
+
+
 <br/>
 <h1>screenshots : </h1>
 <br/>
+
 
 ![alt text](https://github.com/SirRiuz/Custom-Dialog/blob/master/img/scream.png)
 ![alt text](https://github.com/SirRiuz/Custom-Dialog/blob/master/img/scream_1.png)
