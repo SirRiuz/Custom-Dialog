@@ -1,6 +1,5 @@
 # Custom-Dialog
 Custom Dialog es una librería para java swing que permite crear Dialogs personalizados y mas bonitos :D  
-
 ( Scream es el fondo negro trsnsparente que se encuentra detras del Alert Dialog )
 
 <br/>
@@ -12,7 +11,7 @@ Metodos:<br/><br/>
 <strong>setDialogScreamTransparent</strong> - Le añade transparencia el Scream <br/>
 <strong>showDialog</strong> - Permite mostrar el dialog siempre y cuando el valor sea true (No utilicen setVisible !!) <br/>
 
-<h1>Example</h1> :<br/><br/>
+<h1>Example :</h1><br/><br/>
 
         AlertDialog myDialog = new AlertDialog(
                 new Dimension(450 , 180),
