@@ -21,14 +21,7 @@ Custom Dialog es una librería para java swing que permite crear Dialogs persona
             myDialog.setMessege("Eso es un mensaje de error");
             myDialog.setCancel(true);
             myDialog.setDialogScreamTransparent(0.7f);
-
-            myDialog.setPostiveButton("SALUDAR", new AbstractAction() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    System.out.println("Esto es un saludo");
-                    System.exit(0);
-                }
-            });
+            
             myDialog.showDialog();
 
 
